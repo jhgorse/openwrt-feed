@@ -16,11 +16,11 @@ How to use
 
 Add the following line to the feeds.conf in the OpenWrt buildroot::
 
-    src-git mbedtls https://github.com/jhgorse/openwrt-feed
+    src-git jhgorse https://github.com/jhgorse/openwrt-feed
 
 Update the feed::
 
-    ./scripts/feeds update mbedtls
+    ./scripts/feeds update jhgorse
 
 Activate the package::
 
